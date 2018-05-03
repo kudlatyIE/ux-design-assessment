@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Design Specification</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/db_logo_80px_V2.png" alt="logo">
+							<img class="logo-alt" src="img/db_logo_80px_V2_alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#product_definition">Product Definition</a></li>
+					<li class="has-dropdown"> <a>Who will use it</a>
+						<ul class="dropdown">
+							<li><a href="#persona_profile">Persona</a></li>
+							<li><a href="#scenario">Scenario</a></li>
+						</ul>
+					</li>
+					<li class="has-dropdown"><a>How they will use it</a>
+						<ul class="dropdown">
+							<li><a href="#usecase_diagram">Use case diagram</a></li>
+							<li><a href="#usecase_specification">Use Case Specification</a></li>
+						</ul>
+					
+					</li>
+					<li class="has-dropdown"><a>The Product Design</a>
+						<ul class="dropdown">
+							<li><a href="blog-single.html">Wireframes</a></li>
+							<li><a href="blog-single.html">Structure Map</a></li>
+							<li><a href="blog-single.html">Task Flow Diagram</a></li>
+							<li><a href="blog-single.html">State Transition Diagram</a></li>
+						</ul>
+					
+					</li>
+					<li><a href="#team">Team</a></li>
+					
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">We Are Creative The DigiBees</h1>
+							<p class="white-text">and this is our assessment...	
+							</p>
+							<button class="white-btn">Get Started!</button>
+							<button class="main-btn">Learn more</button>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Something about or may be not....</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Something here</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3> and here...</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read less</a>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-mobile"></i>
+						<h3>... and completely nothing here</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read nothing</a>
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+
+	<!-- product definition -->
+	<div id="product_definition" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Product Definition</h2>
+				</div>
+				<!-- /Section header -->
+				<!-- Content -->
+			</div>
+				<p>PopUpPlaydate is an app centralised around actual in-person meet ups as it allows parents and childminders of young children to arrange playdates locally, easily and quickly thus facilitating social interaction.</p>
+		
+				<!-- / Content -->
+
+
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /product definition -->
+
+	<!-- Persona profile -->
+	<div id="persona_profile" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">User Persona Profile</h2>
+				</div>
+				<!-- /Section header -->
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="testimony-slide active text-center">
+						<h3>Nina Milic</h3>
+						<blockquote>
+							<p><i>&ldquo;It doesn’t matter who I meet, whether they be Irish or not, a Mum or a Dad; as long as we get on well together, that’s all that counts.&rdquo;</i></p>
+						</blockquote>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-sm-6">
+					<div class="service">
+					<h3>DETAILS:</h3>
+						<div class="team-img">
+							<img class="img-responsive" src="./img/persona_photo.png" alt="Nina Milic photo">
+							
+						</div>
+						<div class="team-content">
+							<br>
+							<p><strong>Age: </strong>32</p>
+							<p><strong>Nationality: </strong>Croatian</p>
+							<p><strong>Occupation: </strong>Primary School Teacher, now stay at home Mum</p>
+							<p><strong>Level of Education: </strong>University</p>
+							<p><strong>Mother Tongue: </strong>Croatian</p>
+							<p><strong>Level of English: </strong>Fluent</p>
+							<p><strong>Marital Status: </strong>Married to Marko, IT engineer, Croatian</p>
+							<p><strong>Children: </strong>Bruno, aged 18 months</p>
+							<p><strong>Location: </strong>Clongriffin, Co Dublin</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<h3>BIO:</h3>
+							<p>Nina was an English teacher in a Croatian primary school, but when her husband was offered a role in Ireland, she decided to leave her career for a better quality of family life in Ireland. Marko has a good job and his salary is enough to support the family. Nina might be looking for a job when Bruno is 3 and qualifies under ECCE program at a local kindergarten. Or She and Marko may have more children, in which case she will continue to stay at home. Nina comes from a big family herself and would love to have 2 or 3 children of her own.</p>
+							
+						<div >
+						<br>
+							<h3>PERSONALITY:</h3>
+							<p>Shy | Eager</p>
+								
+								
+						</div>
+						<div>
+						<br>
+							<h3>INTERESTS:</h3>
+							<ul>
+							  <li>●	Reading</li>
+							  <li>●	Movies online</li>
+							  <li>●	Shopping online</li>
+							</ul>
+						</div>
+						
+							
+							
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<h3>GOALS:</h3>
+						<ul>
+							 <li>●	Make new friends (preferably Irish)</li>
+							 <li>●	Find playmates for Bruno</li>
+							 <li>●	Expose Bruno to the English language on a daily basis</li>
+						</ul>
+						<br>
+						<h3>FRUSTRATIONS:</h3>
+							<ul>
+							  <li>●	New to Ireland</li>
+							  <li>●	Does not drive, relies on publictransport which is dicult with a child in town</li>
+							  <li>●	Isolated</li>
+							  <li>●	Does not have a lot in common with parents at playgroup</li>
+							</ul>
+							<br>
+							<h3>TECHNOLOGY:</h3>
+							<ul>
+							  <li>●	Internet: competent user</li>
+							  <li>●	Mobile App Usage: WhatsApp to keeps in touch with family and friends in Croatia</li>
+							  <li>●	Social Networks: Facebook for Mum's forum and personal</li>
+							</ul>
+							<br>
+							<h3>BRANDS:</h3>
+							<p>Zara | Gap | Nike | Highstreet labels</p>
+							
+				
+					</div>
+				</div>
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<h3>FRUSTRATIONS:</h3>
+							<ul>
+							  <li>●	New to Ireland</li>
+							  <li>●	Does not drive, relies on publictransport which is dicult with a child in town</li>
+							  <li>●	Isolated</li>
+							  <li>●	Does not have a lot in common with parents at playgroup</li>
+							</ul>
+					</div>
+				</div>
+				<!-- /service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<h3>TECHNOLOGY:</h3>
+							<ul>
+							  <li>●	Internet: Competent user</li>
+							  <li>●	Mobile App Usage: WhatsApp to keeps in touch with family and friends in Croatia</li>
+							  <li>●	Social Networks: Facebook for Mum's forum and personal</li>
+							</ul>
+					</div>
+				</div>
+				<!-- /service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<h3>BRANDS:</h3>
+							<ul>
+							  <li>●	Zara</li>
+							  <li>●	Gap</li>
+							  <li>●	Nike</li>
+							  <li>●	Highstreet labels</li>
+							</ul>
+					</div>
+				</div>
+				
+				<!-- service -->
+				
+
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /user profile -->
+	
+	<!-- user scrnario -->
+	<div id="scenario" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">User Scenario</h2>
+				</div>
+				<!-- /Section header -->
+				<!-- Content -->
+			</div>
+				<p>After giving 18 month old Bruno his breakfast and while drinking her coffee, Nina is planning the day ahead. She would like to have a playdate arranged for Bruno, but does not know any other parents with children of a similar age in the local area.</p>
+				<p>As it is a nice, sunny day today, Nina wants to spend it outside.</p>
+				<p>She takes her phone and opens the PopUpPlaydate application that she downloaded and registered with the evening before. She checks if anyone in Clongrin has created a playdate already, that she and Bruno can join in. She cannot find any, so she creates one herself, putting the local playground as the location and 11am as the scheduled time.</p>
+				<p>Afterwards she continues drinking her coffee and thinking what snacks she should take out with them.</p>
+				<p>After few minutes she hears the sound of incoming notification, which informs her that Mary O’Brien has just joined her playdate. She opens up Mary’s profile and learns that Mary is only 3 years older than Nina and has a girl, Siobhan, who is of a similar age to Bruno. Nina finishes her coffee and starts to dressing Bruno and pack the snacks for going out.</p>
+				<p>She is excited to meet a local Irish mum and is looking forward to Bruno meeting a new playmate.</p>
+		
+				<!-- / Content -->
+
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /user scrnario -->
+
+
+
+
+	<!-- usecase_diagram -->
+	<div id="usecase_diagram" class="section md-padding ">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Use Case Diagram</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- diagram -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/usecase_diagram.png" alt="Nina Milic photo">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /diagram -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /usecase_diagram -->
+	
+	<!-- usecase_specification -->
+	<div id="usecase_specification" class="section ms-padding ">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Use Case Specyfication</h2>
+				</div>
+				<!-- /Section header -->
+				
+				<!-- use case specyfication, create playdate event specyfication -->
+				<div class="col-md-10 col-md-offset-1">
+					<div class="testimony-slide active text-center">
+						<h3>Use case: Create PlayDateEvent</h3>
+						<p>PlayDateEvent contain description, preferred languages, date-time, location, max numbers of participants and other properties</p>
+					</div>
+				</div>
+				<!-- /use case specyfication, create playdate event graphic -->
+				
+				<!-- use case specyfication, create playdate event graphic -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<h3>DIAGRAM	:</h3>
+								
+						<div class="team-img">
+							<img class="img-responsive" src="./img/usecase_create_playdate.png" alt="usecase specification - create playdate event">
+						</div>
+					</div>
+				</div>
+				<!-- use case specyfication, create playdate event specyfication -->
+				<div class="col-md-5 col-sm-6">
+					<div class="service">
+						<h3>PRECONDITIONS:</h3>
+							<p>PlayDateUser has an active account and a number of participants. Location service is enabled.</p>
+
+						<h3>SUCCESS GUARANTEE:</h3>
+							<p>New PlayDateEvent will be uploaded on PlayDateServer and visible to other users.</p>
+						<h3>MAIN SUCCESS SCENARIO:</h3>
+							<ul>
+							  <li>●	Open template for a new PlayDate Event</li>
+							  <li>●	Set description of PlayDate Event</li>
+							  <li>●	Set location</li>
+							  <li>●	Set date time</li>
+							  <li>●	Set max number of participants</li>
+							  <li>●	Publish PlayDateEvent</li>
+							</ul
+					</div>
+				</div>
+				<!-- /use case specyfication, create playdate event specyfication -->
+				
+			</div>
+			<!-- Row -->
+		</div>
+		<!-- /Container -->
+	</div>
+	<!-- /usecase_specification -->
+
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+					<h3> Today we are all Web Designers!</h3>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/aine.png" alt="">
+							
+						</div>
+						<div class="team-content">
+							<h3>Aine Conaghan</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/anna.png" alt="">
+							
+						</div>
+						<div class="team-content">
+							<h3>Anna Horvat</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/lucy.png" alt="">
+							
+						</div>
+						<div class="team-content">
+							<h3>Lucy OReilly</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/nick.png" alt="">
+							
+						</div>
+						<div class="team-content">
+							<h3>Nikodem Walicki</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/sarah.png" alt="">
+							
+						</div>
+						<div class="team-content">
+							<h3>Sarah McKibbin</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team/tracy.png" alt="">
+							
+						</div>
+						<div class="team-content">
+							<h3>Tracy Cassidy</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+	
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/db_logo_80px_V2_alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
