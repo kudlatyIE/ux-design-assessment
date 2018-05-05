@@ -69,27 +69,39 @@
 				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#about">What is is?</a></li>
-					<li><a href="#product_definition">Product Definition</a></li>
+					<li class="has-dropdown"><a>What is it?</a>
+						<ul class="dropdown">
+							<li><a href="#about">Product Presentation Video</a></li>
+							<li><a href="#product_definition">Product Definition</a></li>
+						</ul>
+					</li>
 					<li class="has-dropdown"> <a>Who will use it?</a>
 						<ul class="dropdown">
-							<li><a href="#persona_profile">Persona</a></li>
-							<li><a href="#scenario">Scenario</a></li>
+							<li><a href="#persona_profile">User Persona</a></li>
+							<li><a href="#scenario">User Scenario</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown"><a>How they will use it?</a>
 						<ul class="dropdown">
-							<li><a href="#usecase_diagram">Use case diagram</a></li>
+							<li><a href="#usecase_diagram">Use Case Diagram</a></li>
 							<li><a href="#usecase_specification">Use Case Specification</a></li>
 						</ul>
 					
 					</li>
 					<li class="has-dropdown"><a>The Product Design</a>
 						<ul class="dropdown">
-							<li><a href="blog-single.html">Wireframes</a></li>
-							<li><a href="blog-single.html">Structure Map</a></li>
-							<li><a href="blog-single.html">Task Flow Diagram</a></li>
-							<li><a href="blog-single.html">State Transition Diagram</a></li>
+							<li><a href="#wireframe">Wireframes</a></li>
+							<li><a href="#structure_map">Structure Map</a></li>
+							<li><a href="#taskflow_diagram">Task Flow Diagram</a></li>
+							<li><a href="#transition_diagram">State Transition Diagram</a></li>
+						</ul>
+					
+					</li>
+					
+					<li class="has-dropdown"><a>References and Appendix</a>
+						<ul class="dropdown">
+							<li><a href="#references">References</a></li>
+							<li><a href="#appendix">Appendix</a></li>
 						</ul>
 					
 					</li>
@@ -110,11 +122,12 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">We Are Creative The DigiBees</h1>
-							<p class="white-text">and this is our assessment...	
+							<h1 class="white-text">PopUpPlaydates</h1>
+							<!-- <p class="white-text">and this is our assessment...	-->
 							</p>
-							<button class="white-btn">Get Started!</button>
-							<button class="main-btn">Learn more</button>
+							<button class="white-btn" onclick="window.location.href='#about'">Let's Explore!</button>
+						
+						<!--	<button class="main-btn">Learn more</button> -->
 						</div>
 					</div>
 					<!-- /home content -->
@@ -138,19 +151,23 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">What is it?</h2>
+					<h2 class="title">Product Presentation Video</h2>
 				</div>
 				<!-- /Section header -->
 				<div class="testimony-slide active text-center">
-					<div class="col-md-12">
-						
+					
+						<!--
+						<div class="col-md-12">
 						<div style="padding:56.25% 0 0 0;position:relative;">
 							<iframe src="https://player.vimeo.com/video/116451748" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscree>
 							</iframe>
 						</div><script src="https://player.vimeo.com/api/player.js">
-						</script><p><a href="https://vimeo.com/116451748">POV 2k14</a> from <a href="https://vimeo.com/nickmcnutt">Nick McNutt</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+						</script>
+						-->
+						<div class="col-md-12 col-sm-4">
+							<div class="placeholder video"></div>
+						</div>
 					
-					</div>
 				</div>
 
 				
@@ -214,7 +231,7 @@
 						<div class="testimony-slide active text-center">
 						<h3>Nina Milic</h3>
 						<blockquote>
-							<p><i>&ldquo;It doesn’t matter who I meet, whether they be Irish or not, a Mum or a Dad; as long as we get on well together, that’s all that counts.&rdquo;</i></p>
+							<p><i>&ldquo;It doesn’t matter who I meet, whether they are Irish or not, a Mum or a Dad; as long as we get on well and the children have a fun time together, that’s what makes me happy.&rdquo;</i></p>
 						</blockquote>
 						</div>
 					</div>
@@ -245,7 +262,8 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
 						<h3>BIO:</h3>
-							<p>Nina was an English teacher in a Croatian primary school, but when her husband was offered a role in Ireland, she decided to leave her career for a better quality of family life in Ireland. Marko has a good job and his salary is enough to support the family. Nina might be looking for a job when Bruno is 3 and qualifies under ECCE program at a local kindergarten. Or She and Marko may have more children, in which case she will continue to stay at home. Nina comes from a big family herself and would love to have 2 or 3 children of her own.</p>
+							<p>Nina was an English teacher in a Croatian primary school, but when her husband was offered a role in Ireland, she decided to leave her career for a better quality of family life in Ireland. </p>
+							<p>Marko has a good job and his salary is enough to support the family. Nina might be looking for a job when Bruno is 3 and qualifies under ECCE programme at a local kindergarten. She and Marko may have more children, in which case she will continue to stay at home. Nina comes from a big family herself and would love to have 2 or 3 children of her own.</p>
 							
 						<div >
 						<br>
@@ -259,7 +277,7 @@
 							<h3>INTERESTS:</h3>
 							<ul>
 							  <li>●	Reading</li>
-							  <li>●	Movies online</li>
+							  <li>●	Watching movies online</li>
 							  <li>●	Shopping online</li>
 							</ul>
 						</div>
@@ -277,77 +295,35 @@
 						<ul>
 							 <li>●	Make new friends (preferably Irish)</li>
 							 <li>●	Find playmates for Bruno</li>
-							 <li>●	Expose Bruno to the English language on a daily basis</li>
+							 <li>●	Expose Bruno to the English language daily</li>
 						</ul>
 						<br>
 						<h3>FRUSTRATIONS:</h3>
 							<ul>
 							  <li>●	New to Ireland</li>
-							  <li>●	Does not drive, relies on publictransport which is dicult with a child in town</li>
+							  <li>●	Does not drive, relies on public transport which is difficult with a child in tow</li>
 							  <li>●	Isolated</li>
-							  <li>●	Does not have a lot in common with parents at playgroup</li>
+							  <li>●	Does not have a lot in common with the parents at playgroup</li>
 							</ul>
 							<br>
 							<h3>TECHNOLOGY:</h3>
 							<ul>
-							  <li>●	Internet: competent user</li>
-							  <li>●	Mobile App Usage: WhatsApp to keeps in touch with family and friends in Croatia</li>
-							  <li>●	Social Networks: Facebook for Mum's forum and personal</li>
+							  <li>●	Internet: Competent user</li>
+							  <li>●	WhatsApp: Keeps in touch with family and friends in Croatia</li>
+							  <li>●	Facebook: Mums’ forum and personal use</li>
 							</ul>
+							
 							<br>
 							<h3>BRANDS:</h3>
 							<p>Zara | Gap | Nike | Highstreet labels</p>
 							
-				
-					</div>
-				</div>
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<h3>FRUSTRATIONS:</h3>
-							<ul>
-							  <li>●	New to Ireland</li>
-							  <li>●	Does not drive, relies on publictransport which is dicult with a child in town</li>
-							  <li>●	Isolated</li>
-							  <li>●	Does not have a lot in common with parents at playgroup</li>
-							</ul>
 					</div>
 				</div>
 				<!-- /service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<h3>TECHNOLOGY:</h3>
-							<ul>
-							  <li>●	Internet: Competent user</li>
-							  <li>●	Mobile App Usage: WhatsApp to keeps in touch with family and friends in Croatia</li>
-							  <li>●	Social Networks: Facebook for Mum's forum and personal</li>
-							</ul>
-					</div>
-				</div>
-				<!-- /service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<h3>BRANDS:</h3>
-							<ul>
-							  <li>●	Zara</li>
-							  <li>●	Gap</li>
-							  <li>●	Nike</li>
-							  <li>●	Highstreet labels</li>
-							</ul>
-					</div>
-				</div>
-				
-				<!-- service -->
-				
-
-				<!-- /service -->
-
 			</div>
 			<!-- /Row -->
-
 		</div>
 		<!-- /Container -->
-
 	</div>
 	<!-- /user profile -->
 	
@@ -367,12 +343,14 @@
 				<!-- /Section header -->
 				<!-- Content -->
 			</div>
-				<p>After giving 18 month old Bruno his breakfast and while drinking her coffee, Nina is planning the day ahead. She would like to have a playdate arranged for Bruno, but does not know any other parents with children of a similar age in the local area.</p>
-				<p>As it is a nice, sunny day today, Nina wants to spend it outside.</p>
-				<p>She takes her phone and opens the PopUpPlaydate application that she downloaded and registered with the evening before. She checks if anyone in Clongrin has created a playdate already, that she and Bruno can join in. She cannot find any, so she creates one herself, putting the local playground as the location and 11am as the scheduled time.</p>
-				<p>Afterwards she continues drinking her coffee and thinking what snacks she should take out with them.</p>
-				<p>After few minutes she hears the sound of incoming notification, which informs her that Mary O’Brien has just joined her playdate. She opens up Mary’s profile and learns that Mary is only 3 years older than Nina and has a girl, Siobhan, who is of a similar age to Bruno. Nina finishes her coffee and starts to dressing Bruno and pack the snacks for going out.</p>
-				<p>She is excited to meet a local Irish mum and is looking forward to Bruno meeting a new playmate.</p>
+				<p>Nina is planning the day ahead after giving 18 month old Bruno his breakfast and while drinking her coffee. She would like to have a playdate arranged for Bruno but does not know any other parents with children of similar ages in her local area. </p>
+				
+				<p>It is a nice sunny day today so Nina wants to spend it outside. She takes her phone and opens the PopUpPlaydate application that she downloaded and registered with the evening before. Nina checks if anyone in Clongriffin has created a playdate for her and Bruno to join. She cannot find any so she creates one herself, adding the local playground as the location and 11 am as the scheduled time.</p>
+				
+				
+				<p>Nina continues drinking her coffee and thinking about which snacks she should take out with them. After a few minutes she hears the sound of an incoming notification which informs her that Mary O’Brien has just joined her playdate. She opens up Mary’s profile and discovers that Mary is only 3 years older than Nina and has a girl Siobhan who is of a similar age to Bruno. Nina finishes her coffee and starts to dress Bruno then packs their snacks for going out.</p>
+				
+				<p>Nina is excited to meet a local Irish mum and is looking forward to introducing Bruno to a new playmate.</p>
 		
 				<!-- / Content -->
 
@@ -407,7 +385,7 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="testimony-slide active text-center">
 							<div class="team-img">
-								<img class="img-responsive" src="./img/usecase_diagram.png" alt="Nina Milic photo">
+								<img class="img-responsive" src="./img/usecase_diagram_new.png" alt="user case diagram">
 								
 							</div>
 						</div>
@@ -435,7 +413,7 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Use Case Specyfication</h2>
+					<h2 class="title">Use Case Specification</h2>
 				</div>
 				<!-- /Section header -->
 				
@@ -446,26 +424,26 @@
 						<p>PlayDateEvent contain description, preferred languages, date-time, location, max numbers of participants and other properties</p>
 					</div>
 				</div>
-				<!-- /use case specyfication, create playdate event graphic -->
-				
-				<!-- use case specyfication, create playdate event graphic -->
+		
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<h3>DIAGRAM	:</h3>
-								
-						<div class="team-img">
-							<img class="img-responsive" src="./img/usecase_create_playdate.png" alt="usecase specification - create playdate event">
-						</div>
+						<h3>PRECONDITIONS:</h3>
+							<p>PlayDateUser has an active account. Location service is enabled.</p>
+
+						
 					</div>
 				</div>
-				<!-- use case specyfication, create playdate event specyfication -->
-				<div class="col-md-5 col-sm-6">
+				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<h3>PRECONDITIONS:</h3>
-							<p>PlayDateUser has an active account and a number of participants. Location service is enabled.</p>
 
 						<h3>SUCCESS GUARANTEE:</h3>
 							<p>New PlayDateEvent will be uploaded on PlayDateServer and visible to other users.</p>
+						
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+					
 						<h3>MAIN SUCCESS SCENARIO:</h3>
 							<ul>
 							  <li>●	Open template for a new PlayDate Event</li>
@@ -474,7 +452,7 @@
 							  <li>●	Set date time</li>
 							  <li>●	Set max number of participants</li>
 							  <li>●	Publish PlayDateEvent</li>
-							</ul
+							</ul>
 					</div>
 				</div>
 				<!-- /use case specyfication, create playdate event specyfication -->
@@ -485,6 +463,371 @@
 		<!-- /Container -->
 	</div>
 	<!-- /usecase_specification -->
+	<!-- wireframe -->
+	<div id="wireframe" class="section md-padding ">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Wireframes</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- diagram -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/revised-create_playdate.png" alt="wireframe 01">
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-10 col-md-offset-1">
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/wireframe_create_playdate.png" alt="wireframe 01">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /diagram -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /wireframe -->
+	<!-- structure map -->
+	<div id="structure_map" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Structure Map</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- diagram -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/site-map-v06.png" alt="structure map">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /diagram -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /structure map -->
+	<!-- task flow diagram -->
+	<div id="taskflow_diagram" class="section md-padding ">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Task Flow Diagram</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- diagram -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/task_flow_diagram_v4.png" alt="task flow diagram">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /diagram -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /task flow diagram -->
+	<!-- transition diagram -->
+	<div id="transition_diagram" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">State Transition Diagram</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- diagram -->
+				<div class="row center ">
+					<div class=" center col-md-6 col-md-offset-1">
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/revised-state_transition_diagram.png" alt="transition diagram">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /diagram -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /transition diagram -->
+	
+	<!-- references -->
+	<div id="references" class="section md-padding ">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">References and Appendix</h2>
+				</div>
+				<!-- /Section header -->
+				<!-- Content -->
+				<div class="col-sm-10 col-sm-10">
+					<div class="service">
+						<h3>REFERENCES:</h3>
+						<ol >
+							<li><p>Ambler, S.W. 2014, Reuse in Use-Case Models: <<extend>>, <<include>>, and inheritance. Available from: http://www.agilemodeling.com/essays/useCaseReuse.htm [20 April 2018].</p></li>
+							<li><p>Envato Pty Ltd. 2018, A Beginner’s Guide to Wireframing. Available from: webdesign.tutsplus.com. [26 April 2018].</p></li>
+							<li><p>Hallett Creative 2017, UX Project: PlayDate. Available from: www.hallettcreative.com [27 April 2018]. </p></li>
+							<li><p>IBM Knowledge Centre, 2018, Use Case Diagrams. Available from: https://www.ibm.com /support/knowledgecenter/SS8PJ7_9.6.1/com.ibm.xtools.modeler.doc/topics/cucd.html [22 April 2018].</p></li>
+							<li><p>Interactive wireframes: dialogs and pop ups Available from: www.justinmind.com [25 April 2018].</p></li>
+							<li><p>Karona Consulting Ltd., 2018, The <<include>> and <<extend>> Relationships in Use Case Models. Available from: http://www.karonaconsulting.com/downloads/usecases_includes andextends.pdf [22 April 2018].</p></li>
+							<li><p>Microsoft, 2018, UML Use Case Diagrams: Guidelines. Available from: https://msdn.microsoft.com/en-us/library/dd409432.aspx [23 April 2018].</p></li>
+							<li><p>Tumblr, 2018. I Love wireframes. Available from: wireframes.tumblr.com. [29 April 2018].</p></li>
+							<li><p>UML-diagrams.org, 2018, UML Use Case Diagrams. Available from: https://www.uml-diagrams.org/use-case-diagrams.html. [26 April 2018].</p></li>
+							<li><p>Viget Labs, 2018, Three Tactics for Improving Wireframe Presentations. Available from: www.viget.com [28 April 2018].</p></li>
+							<li><p>Visual Paradigm 2018, What is Use Case Specification. Available from: https://www.visual-paradigm.com/guide/use-case/what-is-use-case-specification/ [28 April 2018].</p></li>
+						</ol>
+					</div>
+				</div>
+		</div>
+		
+				<!-- / Content -->
+			<!-- /Row -->
+		</div>
+		<!-- /Container -->
+	</div>
+	<!-- /references-->
+				
+				<!-- references -->
+	<div id="appendix" class="section md-padding ">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+				<div class="section-header text-center">
+					<h2 class="title">Appendix</h2>
+				</div>
+				<!-- /Section header -->
+				
+				<!-- appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">Create Account</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/Create_Account.png" alt="create account">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">Account Settings 1</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/Account_Settings_1.png" alt="Account_Settings_1">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">Account Settings 2</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/Account_Settings_2.png" alt="Account_Settings_2">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">Account Settings 3</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/Account_Settings_3.png" alt="Account_Settings_3">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">Create Playdate phone</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/app-create_playdate.png" alt="app-create_playdate">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">View Edit Playdate phone</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/app-view_edit_delete.png" alt="app-view_edit_delete">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">Create a playdate tablet</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/Create_a_playdate.png" alt="Create_a_playdate">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">Create a playdate preview tablet</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/Create_a_playdate_-_preview.png" alt="Create_a_playdate_-_preview">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">App Create a playdate</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/tracy-app-createplaydate.png" alt="tracy-app-createplaydate">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="section-header text-center">
+							<h4 class="title">App View Edit Delete</h4>
+						</div>
+						<div class="testimony-slide active text-center">
+							<div class="team-img">
+								<img class="img-responsive" src="./img/appex/tracy-app-view-edit-delete.png" alt="tracy-app-view-edit-delete">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /appex -->
+				
+				
+			</div>
+		
+				<!-- / Content -->
+
+
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /references-->
 
 
 	<!-- Team -->
@@ -512,7 +855,7 @@
 						</div>
 						<div class="team-content">
 							<h3>Aine Conaghan</h3>
-							<span>Web Designer</span>
+							<span>Project Manager</span>
 						</div>
 					</div>
 				</div>
@@ -527,7 +870,7 @@
 						</div>
 						<div class="team-content">
 							<h3>Anna Horvat</h3>
-							<span>Web Designer</span>
+							<span>Digital Marketing</span>
 						</div>
 					</div>
 				</div>
@@ -542,7 +885,7 @@
 						</div>
 						<div class="team-content">
 							<h3>Lucy OReilly</h3>
-							<span>Web Designer</span>
+							<span>Digital Marketing</span>
 						</div>
 					</div>
 				</div>
@@ -555,7 +898,7 @@
 						</div>
 						<div class="team-content">
 							<h3>Nikodem Walicki</h3>
-							<span>Web Designer</span>
+							<span>Developer</span>
 						</div>
 					</div>
 				</div>
@@ -657,7 +1000,8 @@
 	</div>
 	<!-- /Preloader -->
 
-	<!-- jQuery Plugins -->
+	<!-- jQuery Plugins and others-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
